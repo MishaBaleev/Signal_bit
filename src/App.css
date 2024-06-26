@@ -1,0 +1,17 @@
+body{
+  overflow-y: scroll;
+  min-height: 840px;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+.app{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 80px;
+  
+}
+
+
+.app.mobile{
+  padding: 0
+}

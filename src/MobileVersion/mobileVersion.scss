@@ -1,0 +1,289 @@
+.mobile{
+    padding: 18px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .title{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    p{
+        font-size: 8px;
+        color: #4d4d4d
+    }
+    .main_logo{
+        width: 248px;
+        height: 39px
+    }
+    .right_hand{
+        display: flex;
+        margin-top: 6px;
+        .text{
+            margin-left: 12px;
+        }
+        h3{
+            margin: 0;
+            margin-top: 18px;
+            width: 100%;
+        }
+        img{
+            width: 98px;
+            height: 82px
+        }
+    }
+    .left_hand{
+        margin-top: 8px;
+        display: flex;
+        justify-content: right;
+        flex-wrap: wrap;
+        div{
+            display: flex;
+        }
+        img{
+            width: 101px;
+            height: 65px
+        }
+        h3{
+            margin: 0;
+            margin-right: 12px;
+            text-align: right;
+        }
+        p{
+            width: 90%;
+            margin: 0;
+            margin-top: 8px;
+            text-align: right;
+            margin-right: 12px;
+        }        
+    }
+    .research{
+        .title{
+            margin: 0;
+            margin-bottom: 8px;
+            margin-top: 12px;
+            margin-left: 12px;
+        }
+        .item{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            margin-left: 12px;
+            width: calc(100% - 24px);
+            img{
+                width: 34px;
+                height: 34px;
+                margin-right: 12px;
+            }
+            &:not(:last-child){
+                margin-bottom: 8px;
+            }
+            div h3{
+                font-size: 12px;
+                margin: 0;
+                margin-bottom: 5px;
+            }
+            div p{
+                font-size: 8px;
+                margin: 0
+            }
+        }
+        
+    }
+    .price_mob{
+        // padding: 0 12px;
+        width: 100%;
+        .title{
+            margin: 12px 0 8px 12px
+        }
+        .list{
+            padding: 0;
+            margin: 0;
+            margin-left: 12px;
+            width: calc(100% - 24px);
+            li{
+                width: 100%;
+                list-style-type: none;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                align-content: flex-start;
+                img{
+                    width: 36px;
+                    height: 36px
+                }
+                .descr{
+                    margin-left: 12px;
+                    width: calc(100% - 48px);
+                    .name{
+                        font-size: 12px;
+                        font-weight: 700;
+                        margin: 0;
+                        margin-bottom: 4px;
+                    }
+                    .text_d{
+                        font-size: 8px;
+                        margin: 0;
+                        margin-bottom: 4px;
+                    }
+                    .text_h{
+                        font-weight: 700;
+                        font-size: 7px;
+                        margin: 0;
+                        margin-bottom: 2px;
+                    }
+                    .text_u{
+                        font-size: 7px;
+                        margin: 0;
+                        margin-bottom: 2px;
+                    }
+                }
+            }
+        }
+    }
+    .squeaker{
+        .title{
+            margin-top: 12px;
+            margin-bottom: 8px;
+            margin-left: 12px;
+        }
+        .imgs{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            .left, .middle, .right{
+                height: 77px;
+            }
+        }
+        p{
+            margin-left: 12px;
+            margin-top: 0;
+            width: calc(100% - 24px);
+            color: black;
+            &:not(:last-child){
+                margin-bottom: 4px;
+            }
+            .key_word{
+                font-weight: 700;
+            }
+        }
+    }
+    .demonstration{
+        width: calc(100% - 24px);
+    }
+    .params{
+        .title{
+            margin-left: 12px;
+        }
+        .item{
+            width: calc(100% - 24px);
+            display: flex;
+            align-items: center;
+            align-content: center;
+            margin-left: 12px;
+            img{
+                width: 34px;
+                height: 34px
+            }
+            p{
+                margin: 0;
+                margin-left: 12px;
+                color: black
+            }
+        }
+    }
+    .contacts{
+        .title{
+            margin-top: 12px;
+            margin-bottom: 8px;
+        }
+        .email{
+            color: black;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            font-size: 8px;
+            margin-bottom: 8px;
+            img{
+                width: 12px;
+                height: 9px;
+                margin-right: 4px;
+                margin-left: 12px
+            }
+            a{
+                color: black;
+                text-decoration: none;
+                &:focus{
+                    color: black
+                }
+            }
+        }
+        .to_user{
+            color: black;
+            width: 60%;
+            margin: 0
+        }
+    }
+    .last_img{
+        width: 152px;
+        height: 113px;
+        margin: 0 auto;
+        margin-top: 28px;
+    }
+    .partners{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: calc(100% - 24px);
+        margin-bottom: 20px;
+        .title{
+            width: 100%;
+            color: #4d4d4d;
+            font-size: 8px;
+            margin-top: 28px;
+            margin-bottom: 8px;
+        }
+        .sfedu{
+            width: 50px;
+            height: 46px
+        }
+        .ictis{
+            width: 76px;
+            height: 33px
+        }
+        .integra{
+            width: 110px;
+            height: 29px
+        }
+    }
+    .official_info{
+        width: 100%;
+        margin-left: 12px; 
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        .title_of{
+            width: 100%;
+            font-size: 8px;
+            color: #4d4d4d;
+            font-weight: 700;
+            margin: 0;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+        .item_of{
+            text-align: left;
+            width: 100%;
+            margin: 0;
+            font-size: 8px;
+        }
+    }
+    .footer{
+        position: relative;
+        padding: 0;
+        color: #676767;
+        font-size: 8px;
+        text-align: center;
+        margin-top: 18px;
+        margin-bottom: 0;
+    }
+} 

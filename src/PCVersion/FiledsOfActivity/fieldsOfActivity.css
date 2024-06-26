@@ -1,0 +1,49 @@
+.fieldsOfActivity{
+    padding: 32px 32px 0;
+}
+.fieldsOfActivity .title{
+    font-weight: 700;
+    font-size: 55px;
+    margin: 0;
+    margin-bottom: 60px;
+}
+.fieldsOfActivity .img-item{
+    padding-right: 32px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+}
+.fieldsOfActivity .img-item:not(:last-child){
+    margin-bottom: 42px;
+}
+.fieldsOfActivity .img-item img{
+    width: 150px;
+    height: 150px
+}
+.fieldsOfActivity .img-item .descr{
+    margin-left: 80px;
+}
+.fieldsOfActivity .img-item .descr h2{
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.fieldsOfActivity .img-item .descr span{
+    font-size: 18px;
+    color: #4d4d4d
+}
+
+@media(max-width: 1500px){
+    .fieldsOfActivity .title{
+        font-size: 45px;
+    }
+    .fieldsOfActivity .img-item img{
+        width: 120px;
+        height: 120px
+    }
+    .fieldsOfActivity .img-item:not(:last-child){
+        margin-bottom: 22px;
+    }
+}
