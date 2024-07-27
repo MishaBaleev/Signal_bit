@@ -1,0 +1,40 @@
+@import '../../mixin.scss';
+
+
+.OurAchivement
+{
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   div
+   {
+    width: 94%;
+
+
+    b
+    {
+        @include adaptiv-font(45,30);
+    }
+   }
+   .bodyUp
+   {
+    display: flex;
+    justify-content: center;
+    img
+    {
+        @include adaptiv-height(302);
+    }
+   }
+   .bodyDown
+   {
+    display: flex;
+    justify-content: center;
+    img
+    {
+        @include adaptiv-height(215);
+    }
+   }
+
+}

@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import "./App.css";
+import "./mixin.scss";
 import Header from "./PCVersion/Header/Header";
 import Main from "./PCVersion/Main/Main";
 import FieldsOfActivity from "./PCVersion/FiledsOfActivity/FieldsOfActivity";
@@ -7,6 +8,12 @@ import Creations from "./PCVersion/Creations/Creations";
 import PriceList from "./PCVersion/PriceList/PriceList";
 import Footer from "./PCVersion/Footer/Footer";
 import Callback from "./PCVersion/Callback/Callback";
+import AboutUs from "./PCVersion/AboutUs/AboutUs";
+import CreateFC from "./PCVersion/CreateFC/CreateFC";
+import CreateSensor from "./PCVersion/CreateSensor/CreateSensor";
+
+import OurAchivement from "./PCVersion/OurAchivement/OurAchivement";
+
 import MobileVersion from "./MobileVersion/MobileVersion";
 
 class App extends Component{
@@ -18,7 +25,11 @@ class App extends Component{
       <FieldsOfActivity/>,
       <Creations/>,
       <PriceList/>,
-      <Callback/>
+      <Callback/>,
+      <AboutUs/>,
+      <CreateFC/>,
+      <CreateSensor/>,
+      <OurAchivement/>
     ]
 
     this.state = {

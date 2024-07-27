@@ -1,3 +1,4 @@
+@import '../mixin.scss';
 .mobile{
     padding: 18px 0;
     display: flex;
@@ -170,7 +171,20 @@
     .demonstration{
         width: calc(100% - 24px);
     }
+    .img-cont
+    {
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+        img
+        {
+          height: 134px;
+        }
+    }
     .params{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         .title{
             margin-left: 12px;
         }
@@ -190,6 +204,64 @@
                 color: black
             }
         }
+    }
+
+    .AboutUs
+    {
+        width: 94%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img
+        {
+            height: 164px;
+        }
+        .block3
+{
+
+width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 8px;
+    .block3-cont
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 12px;
+
+        img
+        {
+           height:26px ;
+        }
+    }
+}
+    }
+
+    .Achivment
+    {
+        width: 94%;
+        .content
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            .achiv-block
+            {
+                display: flex;
+                gap: 20px;
+                height: 112px;
+                img
+                {
+                    height: 112px;
+                }
+            }
+        }
+       
     }
     .contacts{
         .title{
