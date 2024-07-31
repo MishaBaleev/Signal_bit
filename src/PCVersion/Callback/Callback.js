@@ -31,12 +31,7 @@ class Callback extends Component{
                         <img className="ictis" src={logo_ictis}/>
                         <img className="integra" src={logo_integra}/>
                     </div>
-                    <div className="official_info">
-                        <h3 className="title">Общество с ограниченной ответственностью «СИГНАЛ БИТ»</h3>
-                        <p className="item">ИНН 6154166039</p>
-                        <p className="item">ОГРН 1236100028493</p>
-                        <p className="item">Россия, г. Таганрог</p>
-                    </div>
+                  
                 </div>
                 
             </div>
