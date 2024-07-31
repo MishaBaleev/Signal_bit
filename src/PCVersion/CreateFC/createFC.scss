@@ -58,6 +58,7 @@
             }
             .column1-body-content-img
             {
+                margin-right: 5%;
                 width: 36%;
                 display: flex;
                align-items: center;
@@ -98,9 +99,11 @@ font-weight:700;
 .part2-body
 {
     margin-top: 3%;
+    margin-bottom: 3%;
     display: flex;
     width: 98%;
     justify-content: space-between;
+    @include adaptiv-font(16,5);
     .part2-column
     {
         display: flex;

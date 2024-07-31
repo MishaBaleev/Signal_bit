@@ -421,7 +421,12 @@ class MobileVersion extends Component{
                     <div className="block3-cont"><img src={c3}/><div>грантовые поддержки на реализацию технологических идей</div></div>
                     <div className="block3-cont"><img src={c5}/><div>инновационных проектов, которые получили апробацию</div></div>
                 </div>
-
+                <div className="official_info">
+                    <h3 className="title_of">Общество с ограниченной ответственностью "СИГНАЛ БИТ"</h3>
+                    <p className="item_of">ИНН 6154166039</p>
+                    <p className="item_of">ОГРН 1236100028493</p>
+                    <p className="item_of">Ростовская область, г. Таганрог, ул. Лесная Биржа, д. 20-б, оф. 2 г</p>
+                </div>
                 </div>
 
                 <div className="Achivment">
@@ -464,12 +469,7 @@ class MobileVersion extends Component{
                     <img src={logo_ictis} className="ictis"/>
                     <img src={logo_integra} className="integra"/>
                 </div>
-                <div className="official_info">
-                    <h3 className="title_of">Общество с ограниченной ответственностью "СИГНАЛ БИТ"</h3>
-                    <p className="item_of">ИНН 6154166039</p>
-                    <p className="item_of">ОГРН 1236100028493</p>
-                    <p className="item_of">Россия, г. Таганрог</p>
-                </div>
+              
                 <p className="footer">
                     Проект выполнен при поддержке Фонда содействия развитию
                     малых форм предприятий в научно-технической сфере

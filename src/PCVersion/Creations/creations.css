@@ -163,3 +163,34 @@
         font-size: 24px;
     }
 }
+
+.part2-body
+{
+    margin-top: 3%;
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    .part2-column
+    {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+
+    }
+    .c1
+    {
+        gap: 30px;
+    }
+    .c2
+    {
+        gap: 60px;
+    }
+}
+
+.part2-column-cont
+{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}

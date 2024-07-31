@@ -9,6 +9,7 @@ import creation_3 from "./img/creation_3.png";
 import creation_4 from "./img/creation_4.png";
 import creation_5 from "./img/creation_5.png";
 import creation_6 from "./img/creation_6.png";
+import money from "./img/money.png";
 
 class Creations extends Component{
     constructor(props){
@@ -83,14 +84,44 @@ class Creations extends Component{
                 </div>
                 <div className="creation_2">
                     <h3 className="title">Характерные параметры системы</h3>
-                    <ul className="list">
-                        {this.cr_2_descr.map((item, index) => {
-                            return <li key={index}>
-                                <img src={this.cr_2_imgs[index]}/>
-                                <span>{item}</span>
-                            </li>
-                        })}
-                    </ul>
+                    <div className="part2-body">
+                  <div className="part2-column c1">
+                      <div className="part2-column-cont">
+                          <img src={creation_1}/>
+                          <div>Возможность выявления и классификации БПЛА в радиочастотном диапазоне 
+                          с повышенной точностью</div>
+                      </div>
+                      <div className="part2-column-cont">
+                          <img src={creation_3}/>
+                          <div>Определение функциональных возможностей БПЛА на основе собранной о нем информации</div>
+                      </div>
+                      <div className="part2-column-cont">
+                          <img src={creation_5}/>
+                      <div>Возможность интеграции с существующими решениями по противодействию БПЛА с целью повышения эффективности их работы, в частности, для управления системами глушения связи и реализации интеллектуального глушения</div>
+                      </div>
+                      <div className="part2-column-cont">
+                          <img src={money}/>
+                          <div><b>Стоимость продукта</b><br/>80 тыс. руб.
+                          </div>
+                      </div>
+                      
+
+                  </div>
+                  <div className="part2-column c2">
+                  <div className="part2-column-cont">
+                          <img src={creation_2}/>
+                          <div>Выявление координат БПЛА и расстояние до БПЛА</div>
+                      </div>
+                      <div className="part2-column-cont">
+                          <img src={creation_4}/>
+                          <div>Определение типа сценария для активного противодействия БПЛА позволяющего повысить эффективность системы защиты и безопасность охраняемого объекта критической информационной инфраструктуры</div>
+                      </div>
+                      <div className="part2-column-cont">
+                          <img src={creation_6}/>
+                          <div>Повышенная длительность работы за счет переключения между режимами пассивного ожидания и активного противодействия</div>
+                      </div>
+                  </div>
+              </div>
                 </div>
             </div>
         )
