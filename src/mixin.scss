@@ -18,13 +18,13 @@ $maxWidth: 1152;
 
 @mixin bText($pcSize, $mobSize) 
 {
-font-family: Raleway;
-@include adaptiv-font($pcSize,$mobSize);
-font-weight: 700;
+	font-family: Raleway;
+	@include adaptiv-font($pcSize,$mobSize);
+	font-weight: 700;
 
-line-height: 23px;
-letter-spacing: 0em;
-text-align: left;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: left;
 }
 
 @mixin text1($pcSize, $mobSize) 
